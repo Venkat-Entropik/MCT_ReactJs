@@ -1,11 +1,10 @@
 import React, { useContext } from 'react'
 import { GlobalData } from '../App'
 import './loginpage.css'
-
+import { useNavigate } from 'react-router-dom'
 const LoginPage = () => {
 const {user,setUser,pass,setPass}=useContext(GlobalData)
-console.log(user)
-console.log(pass)
+const navigate=useNavigate();
 
   return (
     <div className='loginContainer'>
@@ -27,7 +26,7 @@ console.log(pass)
                 <button className='buttons' onClick={()=>{
                     if(user==='test@gmail.com' && pass==='test123'){
                         localStorage.setItem("loginsuccess",true)
-                        window.location.reload();
+                        navigate("/home")
                     }
                     else{
                         alert("Wrong Credintials")
