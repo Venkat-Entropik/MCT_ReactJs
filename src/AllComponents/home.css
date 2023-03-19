@@ -1,0 +1,33 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://getwallpapers.com/wallpaper/full/5/a/7/795479-download-cool-sunset-backgrounds-2560x1600-photo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.hometitle{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 60px;
+    font-weight: 200;
+    color: white;
+}
+.hometext{
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    color: white;
+    padding-top: 25px;
+}
+.homebut{
+    display: block;
+    margin: 50px auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid pink;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}

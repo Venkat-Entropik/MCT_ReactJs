@@ -1,0 +1,8 @@
+.electronicsul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.electronicsul li{
+    font-size: 1.3rem;
+}

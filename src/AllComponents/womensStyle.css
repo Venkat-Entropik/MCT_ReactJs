@@ -1,0 +1,9 @@
+.womens{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.womens li{
+    font-size: 1.3rem;
+    
+}

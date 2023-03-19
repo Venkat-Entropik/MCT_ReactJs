@@ -1,0 +1,50 @@
+.useDetailsContainer{
+    padding: 25px;
+}
+.userDetailstitle{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.useDetailsDescription{
+    font-size: 1.3rem;
+    padding-bottom: 25px;
+}
+
+.radiobuttons{
+    display: flex;
+    gap: 20px;
+}
+.radio{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+table {
+    border: 2px solid forestgreen;
+    width: 100%;
+    margin-top: 25px;
+  }
+    
+  tr{
+   
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  th {
+    border-bottom: 1px solid black;
+  }
+    
+  td {
+    text-align: center;
+  }
+
+  .userimage{
+    width: 50px;
+    height: 50px;
+  }
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}

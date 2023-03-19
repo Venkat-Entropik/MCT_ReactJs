@@ -1,0 +1,14 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 15px;
+    background-color: black
+}
+.navbar li{
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    list-style: none;
+}

@@ -1,0 +1,9 @@
+.mensul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.mensul li{
+    font-size: 1.3rem;
+    list-style: none;
+}
