@@ -27,6 +27,7 @@ console.log(pass)
                 <button className='buttons' onClick={()=>{
                     if(user==='test@gmail.com' && pass==='test123'){
                         localStorage.setItem("loginsuccess",true)
+                        window.location.reload();
                     }
                     else{
                         alert("Wrong Credintials")
