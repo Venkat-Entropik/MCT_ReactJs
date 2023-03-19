@@ -31,7 +31,7 @@ const ProductDetails = () => {
                 <h1>{productdetails.category} Category</h1>
             </div>
             <div className='bottomContainer'>
-                <div className="leftContainer">
+                <div className="leftContainer1">
                     <img src={productdetails.image} alt='productimage' className='productimage' />
                 </div>
                 <div className="rightContainer">
