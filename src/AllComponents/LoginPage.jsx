@@ -33,7 +33,7 @@ const navigate=useNavigate();
                     }
                 }}>Login</button>
                 <button className='buttons' onClick={()=>{
-                    localStorage.setItem("loginsuccess",false)
+                    localStorage.clear();
                 }}>Logout</button>
             </div>
         </div>
