@@ -1,5 +1,5 @@
 
-Project Link: https://mct-react-js.vercel.app/login
+Project Link: https://mct-react-js.vercel.app/
 
 Email: test@gmail.com
 Password:test123
